@@ -1,0 +1,61 @@
+@media print {
+  .kill{
+    color: transparent;
+  }
+  .print-addon{
+    background-color:#0093c4!important;
+    width:50px;
+    text-align:center;
+    color:white;
+  }
+  .print-title{
+    background-color: #4fc3f7!important; color: white; padding-left: 10px; padding-bottom: 10px;
+  }
+  .print-row
+  {
+    height:10px;
+  }
+  .print-pad-bottom{
+    padding-bottom:60px;
+  }
+  .print-width{
+    width: 50%
+  }
+  .inner > p, .inner > h3, .icon > i, .small-box-footer, h4 > .fa:before, .print-title > h4 {
+    color: white !important;
+  }
+  .icon > .fa:before
+  {
+    color: rgba(0, 0, 0, 0.3) !important;
+  }
+  .small-box-footer
+  {
+    background-color:  rgba(0, 0, 0, 0.15) !important;
+  }
+  /* * {
+        color: inherit !important;
+        background: inherit !important;
+    } */
+}
+.kill{
+  color: transparent;
+}
+.print-addon{
+  background-color:#0093c4;
+  width:50px;
+  text-align:center;
+  color:white;
+}
+.print-title{
+  background-color: #4fc3f7; color: white; padding-left: 10px; padding-bottom: 10px;
+}
+.print-row
+{
+  height:10px;
+}
+.print-pad-bottom{
+  padding-bottom:60px;
+}
+.print-width{
+  width: 50%
+}
